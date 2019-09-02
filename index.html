@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Find the precious!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li class="navbar-brand"><a href="#" title="FindThePrecious.com">FindThePrecious.com</a></li>
+                <li><a href="#fellows" class="active" title="Fellows">Fellows</a></li>
+                <li><a href="#contact" title="Contact us">Contact us</a></li>
+            </ul>
+        </nav>
+        <section id="carousel">
+            <div class="carousel">
+            </div>
+        </section>
+        <section id="fellows">
+            <h2>Fellows wanted dead <span class="small">(or alive if you want to eat them later)</span></h2>
+        </section>
+        <section id="article">
+                <article></article>
+                <article></article>
+                <article></article>         
+        </section>
+        <form id="contact">
+            <h2>Contact us</h2>
+            <input type="text" placeholder="@">
+            <input type="text" placeholder="&#8962;">
+            <select>
+                    <option value="0">I have seen one of them</option>
+                    <option value="1">I have captured one of them</option>
+                    <option value="2">I want to join your army</option>
+                </select>
+            <textarea placeholder="Your message"></textarea>
+        </form>
+        <script>
+            $(document).ready(function(){
+                $('nav ul li a').click(function(){
+                    $('li a').removeClass("active");
+                    $(this).addClass("active");
+                });
+            });
+        </script>
+        <noscript>Your browser does not support JavaScript!</noscript>
+    </body>
+</html>
