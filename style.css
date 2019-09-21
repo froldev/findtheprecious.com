@@ -1,107 +1,15 @@
-/* général */
 *{
     margin:0;
     padding:0;
 }
-html{
-    background-color: #000;
-}
-body{
-    width:900px;
-    text-align:center;
-    background-color: #fff;
-    margin:0 auto;
-}
-h2{
-    color:#424242;
-    padding:40px;
-    font-size:30px
-}
-ul{
-    list-style-type: none;
-}
-a,
-a:hover {
-    text-decoration: none;
-}
+
 /* navbar */
-nav{
-    width:890px;
-    height:30px;
-    text-align: left;
-    background-color:#424242;
-    border:1px solid #A2A2A2;
-    margin:10px 5px 30px 5px;
-    padding:0px;
-    position:fixed;
-}
-nav li{
-    
-    background-color:#424242;
-    color:#A2A2A2;
-    line-height: 30px;
-    display: inline;
-}
-nav li a {
-    background-color: #424242;
-    color: #A2A2A2;
-    padding:5px 20px;
-    font-size:13px;
-}
-nav li a:hover, nav li a:focus{
-    background-color: #EEEEEE;
-    color: #424242;
-    border:1px solid #EEEEEE;
-}
-nav ul li:first-child a{
-    font-size:16px;
-}
-nav ul li:first-child a:hover{
-    background-color: #424242;
-    color:#EEEEEE;
-    border:none;
-}
-nav .active {
-    background-color: #EEEEEE;
-    color: #424242;
-    border:1px solid #EEEEEE;
-}
-/*carousel*/
-.carousel{
-    width:900px;
-    height:300px;
-    background-color:#EEEEEE;
-}
-/* fellows*/  
-#fellows .small{
-    font-size:20px;
-}
-/*article*/
-#article{
-    margin:0px 20px;
-    padding-bottom:100px;
-    border-bottom:1px solid #424242;
-}
-#article article{
-    width:260px;
-    height:260px;
-    background-color:#EEEEEE;
-    margin:0px 5px;
-    display:inline-block;
-}
-/* contact */
-#contact h2{
-    text-align:left;
-    padding:10px 0px 40px 20px;
-}
-#contact input, #contact select, #contact textarea{
-    display:inline-block;
-    width:700px;
-    height:20px;
-    font-size:14px;
-    margin:10px;
-    border:1px solid #424242;
-}
-#contact textarea{
-    height:80px;
-}
+
+/* carousel */
+
+/* fellows */
+
+/* cards */
+
+/* footer */
+
