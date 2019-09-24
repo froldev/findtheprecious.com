@@ -1,15 +1,143 @@
+/* général */
 *{
     margin:0;
     padding:0;
 }
-
+body{
+    color:#757575!important;
+}
+section{
+    padding:40px;
+}
+.row{
+    margin-left:0px!important;
+    margin-right:0px!important;
+}
+.container{
+    padding-left:0px!important;
+    padding-right:0px!important;
+}
+a,
+a:hover {
+    text-decoration: none;
+}
+li{
+    list-style:none;
+}
+/* -------------------------------------------------------------- */
 /* navbar */
-
+.navbar-nav li:hover{
+    background:#EEEEEE!important;
+}
+.navbar-nav li:hover a{
+    color:#000!important;
+}
+/* -------------------------------------------------------------- */
 /* carousel */
-
+.carousel-inner, .carousel-item{
+    height:300px!important;
+}
+.carousel-caption{
+    top:30%!important;
+}
+/* -------------------------------------------------------------- */
 /* fellows */
-
+#fellows h2{
+    width:100%;
+    text-align:center;
+}
+/* -------------------------------------------------------------- */
 /* cards */
-
+#article{
+    margin-bottom:100px;
+}
+#article svg{
+    height:300px;
+}
+#article h5{
+    text-align:center!important;
+    border-radius:5px;
+}
+#article .card-dead{
+    filter: grayscale(60%);
+}
+#article .alive{
+    background:#BDBDBD!important;
+    padding:10px;
+}
+#article .dead{
+    margin-top:50%;
+    text-transform:uppercase;
+    color:#BDBDBD!important;
+    font-size:30px;
+}
+#article .card-title-image{
+    opacity:0;
+}
+#article .card:hover .card-title-image{
+    opacity: 1;
+}
+/* -------------------------------------------------------------- */
+/* contact */
+#contact{
+    border-top:2px solid #757575;
+}
+#contact h2{
+    margin-bottom:50px;
+}
+#contact .button-form{
+    text-align:right;
+}
+#contact button:hover{
+    background:#OOO!important;
+}
+/* -------------------------------------------------------------- */
 /* footer */
-
+#footer{
+    padding:20px;
+}
+#footer a{
+    color:#EEEEEE!important;
+    padding:5px;
+}
+f#ooter div{
+    padding-left:5%;
+}
+#footer div:nth-child(3) {
+    padding-left:20%;
+}
+#footer li:hover a{
+    background:#EEEEEE!important;
+    color:#000!important;
+    text-decoration: none;
+    border-radius:5px;
+}
+/* -------------------------------------------------------------- */
+/* media smartphone */
+@media screen and (max-width:760px) {
+    /* fellows */
+    #fellows h2{
+        padding:40px;
+    }
+    /* cards */
+    #article .card{
+        margin-bottom:5%;
+    }
+    /* contact */
+    #contact h2{
+        text-align: center;
+    }
+    #contact button{
+        width:100%;
+    }
+    /* footer */
+    #footer div, #footer div:nth-child(3) {
+        padding-left:0px;
+    }
+    #footer ul{
+        text-align:center;
+    }
+    #footer{
+        padding:20px 10px;
+    }
+}
